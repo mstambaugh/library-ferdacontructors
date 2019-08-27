@@ -1,0 +1,31 @@
+#UPPER {
+  background-color: #b6cdf2;
+}
+
+#left {
+  background-color: #edecaf;
+}
+
+#right {
+  background-color: #ebbca9;
+}
+
+#bottom {
+  background-color: #a8edba;
+}
+
+label {
+  display: inline-block;
+}
+input {
+  display: inline-block;
+}
+.notavailable {
+  background-color: #ebbca9;
+}
+/* #show-book {
+  background-color: #C4E5BD;
+} */
+.inLibrary {
+  background-color: #C4E5BD;
+}

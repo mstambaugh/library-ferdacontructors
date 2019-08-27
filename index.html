@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Personal Library</title>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div id="UPPER">
+      <h1>My Library</h1>
+    </div>
+
+    <div class="row">
+
+      <div class="col-6" id="left">
+        <p>Enter a new book</p>
+        <form id="new-book" action="index.html" method="post">
+          <label for="new-title">Title:</label>
+          <input type="text" id="new-title" value="">
+          <br>
+          <label for="new-author">Author:</label>
+          <input type="text" id="new-author" value="">
+          <br>
+          <label for="new-genre">Genre:</label>
+          <input type="text" id="new-genre" value="">
+          <br>
+          <label for="new-rating">Rate it: </label>
+          <input type="range" min="1" max="10" id="new-rating" value="5">
+          <button type="submit" name="button">Add Book</button>
+        </form>
+      </div>
+      <div class="col-6" id="right">
+        <ul id="books">
+        </ul>
+      </div>
+    </div>
+
+    <div id="show-book">
+
+      <p>Title: <span class="title"></span></p>
+      <p>Author: <span class="author"></span></p>
+      <p>Genre: <span class="genre"></span></p>
+      <p>Rating: <span class="rating"></span></p>
+      <div id="buttons">
+      </div>
+
+    </div>
+</body>
+
+</html>
